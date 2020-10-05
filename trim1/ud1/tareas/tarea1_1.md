@@ -84,8 +84,29 @@ clave-valor.
 
 # 9. Modelos de bases de datos.  
 
-* Modelos conceptuales.
-* Modelos lógicos tradicionales.
-* Modelos lógicos avanzados.
+* BD jerárquica
+* BD de red
+* BD relacional
+* BD entidad-relación
+* BD de objeto-relacional
+* BD de modelos de objetos.
 
-# 10. Tipos de archivos según su función en el tiempo
+# 10. Tipos de archivos según su función en el tiempo  
+Son 2 tipos permanentes y temporales, estos se dividen a su vez en :  
+* Permanentes:  
+  * Archivos maestros. Se llaman también archivos de situación. Contienen la información actualizada de los datos que pueden cambiar. Reflejan el estado actual de la aplicación o de algún aspecto o parte concreta de la misma.
+  * Archivos constantes. Contienen los datos fijos de la aplicación o aquellos otros que
+no suelen cambiar apenas. Se suelen utilizar como archivos de consulta.
+  * Archivos históricos. Contienen los datos acumulados a lo largo del tiempo de los
+archivos que han experimentado actualizaciones. Se emplean para efectuar estadísticas, para
+posibles consultas o para reconstrucción de archivos que han sufrido deterioros.  
+* Temporales
+  * Archivos de movimiento o de transacciones. Contienen la información
+necesaria para actualizar los archivos maestros con los datos o resultados de las operaciones
+que se realizan. Una vez terminada cada operación, la información que contienen pierde su
+valor y utilidad, y puede ser destruida.
+  * Archivos de maniobra o intermedios. Se utilizan para almacenar datos o resultados auxiliares que han de ser utilizados por otros procesos o programas. Su vida
+depende del tiempo que dure la operación en la que intervienen.
+
+
+
