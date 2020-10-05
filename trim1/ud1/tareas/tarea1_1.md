@@ -7,7 +7,7 @@ La base de los ficheros son secuencial , relativa y dispersión.
 * Dentro de los cuales existen estas variantes:
   * Organización secuencial indexada.
   * Organización secuencial encadenada.
-3. Define brevemente los conceptos de registro y campo.
+3. Define brevemente los conceptos de registro y campo.  
 Los registros son conjuntos de datos almacenados relacionados entre sí.   
 Los campos son la información extra que se está recogiendo asignada a un registro.
 4. ¿Qué es una base de datos?
