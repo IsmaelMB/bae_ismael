@@ -1,22 +1,22 @@
 # INTRODUCCIÓN A LAS BASES DE DATOS
 
-1. ¿Qué es un archivo o fichero?  
+# 1. ¿Qué es un archivo o fichero?  
 Es un conjunto de datos guardados, con formato que pueda ser leido por el ordenador.  
 
-2. Tipos de ficheros.  
+# 2. Tipos de ficheros.  
 La base de los ficheros son secuencial , relativa y dispersión.
 * Dentro de los cuales existen estas variantes:
   * Organización secuencial indexada.
   * Organización secuencial encadenada.  
   
-3. Define brevemente los conceptos de registro y campo.  
+# 3. Define brevemente los conceptos de registro y campo.  
 Los registros son conjuntos de datos almacenados relacionados entre sí.   
 Los campos son la información extra que se está recogiendo asignada a un registro.  
 
-4. ¿Qué es una base de datos?  
+# 4. ¿Qué es una base de datos?  
 Es un conjunto de datos organizados estructuralmente que se definen una sola vez y que se utiliza al mismo tiempo por muchos equipos y usuarios.  
 
-5. Diferencias entre un sistema convencional de archivos y un Sistema Gestor de Base de Datos.  
+# 5. Diferencias entre un sistema convencional de archivos y un Sistema Gestor de Base de Datos.  
 Sistema de archivos:  
 
 1. Manejo de archivos en texto plano
@@ -35,7 +35,7 @@ Sistemas de bases de datos:
 5. Sus componentes son Hw, Sw, BD y Usuarios. 
 6. Componentes de un Sistema Gestor de Base de Datos.  
 
-7. Tipos de usuarios de las bases de datos, funciones y características de cada uno de ellos.  
+# 7. Tipos de usuarios de las bases de datos, funciones y características de cada uno de ellos.  
 
 Administradores:  
 
@@ -51,41 +51,41 @@ Tanto de aplicaciones que, mediante API de lenguajes de programación, interact�
 de objetos de la base de datos como rutinas almacenadas o disparadores. Estas aplicaciones servirán a los usuarios
 finales para, de una forma amigable, poder consultar datos, insertarlos, actualizarlos y eliminarlos.  
 
-Usuarios finales:  
+Usuarios finales:    
 Trabajan en el nivel externo mediante vistas o porciones de las bases de datos. Son “clientes” de las bases de datos
 que hacen uso de ellas sin conocer en absoluto su funcionamiento y organización interna. Son personas con pocos o
 nulos conocimientos de informática.  
 
-8. Organización de una base de datos.  
-n Modelo lógico en el que se basan
-– Jerárquico.
-– En Red.
-– Relacional.
-– Objeto-relacional.
-– Orientado a Objetos.  
-n Número de usuarios
-– Monousuario: solo permiten un usuario.
-– Multiusuario: permiten la conexión de varios usuarios.  
-n Número de sitios
-– Centralizados: en un solo servidor o equipo.
-– Distribuidos: en varios equipos que pueden ser homogéneos y heterogéneos.  
-n Ámbito de aplicación
-– Propósito General: orientados a toda clase de aplicaciones.
+# 8. Organización de una base de datos.   
+* Modelo lógico en el que se basan
+– Jerárquico.  
+– En Red.  
+– Relacional.  
+– Objeto-relacional.  
+– Orientado a Objetos.      
+* Número de usuarios  
+– Monousuario: solo permiten un usuario.  
+– Multiusuario: permiten la conexión de varios usuarios.    
+* Número de sitios  
+– Centralizados: en un solo servidor o equipo.  
+– Distribuidos: en varios equipos que pueden ser homogéneos y heterogéneos.    
+* Ámbito de aplicación  
+– Propósito General: orientados a toda clase de aplicaciones.  
 – Propósito Específico: centradas en un tipo específico de aplicaciones.  
-n Tipos de datos
-– Sistemas relacionales estándar: que manejan tipos básicos (int, char, etc.).
-– XML: para el caso de bases de datos que trabajan con documentos xml.
-– Objeto-relacionales: para bases relacionales que incorporan tipos complejos de datos.
-– De objetos: para bases de datos que soportan tipos de objeto con datos y métodos asociados.  
-n Lenguajes soportados
-– SQL estándar.
+* Tipos de datos  
+– Sistemas relacionales estándar: que manejan tipos básicos (int, char, etc.).  
+– XML: para el caso de bases de datos que trabajan con documentos xml.  
+– Objeto-relacionales: para bases relacionales que incorporan tipos complejos de datos.  
+– De objetos: para bases de datos que soportan tipos de objeto con datos y métodos asociados.   
+* Lenguajes soportados  
+– SQL estándar.  
 – NoSQL o nuevo lenguaje de consulta menos estructurado y orientado a bases documentales o de tipo
-clave-valor.
+clave-valor.  
 
-9. Modelos de bases de datos.  
+# 9. Modelos de bases de datos.  
 
 * Modelos conceptuales.
 * Modelos lógicos tradicionales.
 * Modelos lógicos avanzados.
 
-10. Tipos de archivos según su función en el tiempo
+# 10. Tipos de archivos según su función en el tiempo
