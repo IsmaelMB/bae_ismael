@@ -10,9 +10,9 @@
 ![](/trim1/practicas/ud1/5.png)
 ### Con el usuario root creo un usuario que tiene privilegios solo en una base de datos, a la que le he puesto el mismo nombre, esto lo he hecho con la interfaz gráfica ya que ha una herramienta específica para ello.
 ![](/trim1/practicas/ud1/6.png)
-### Para la parte final de la practica creo un usuario y le asigno los privilegios de consulta solo a la base de datos 'yoda' (la creada por y para el usuario) y a la tabla 'pepe'.
+### Para la parte final de la practica creo un usuario esta vez desde terminal y le asigno los privilegios de consulta solo a la base de datos 'yoda' (la creada por y para el usuario) y a la tabla 'pepe'.
 ![](/trim1/practicas/ud1/8.png)
 ### En esta captura muestro los privilegios de este usuario.
 ![](/trim1/practicas/ud1/9.png)
-### Por ultimo 
-![](/trim1/practicas/ud1/10.png)
+### Por ultimo para la prueba de que está bien hecho me logueo con el usuario y pido consultar las tablas , solo sale la de yoda porque es a la única que puede acceder.
+![](/trim1/practicas/ud1/12.png)
