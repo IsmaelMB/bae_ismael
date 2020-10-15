@@ -1,1 +1,1 @@
-![](ud1/1.png)
+![](trim1/practicas/ud1/1.png)
